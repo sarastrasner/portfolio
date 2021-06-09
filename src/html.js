@@ -19,6 +19,16 @@ export default function HTML({
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Sara Strasner | Portfolio" />
+        <meta name="title" property="og:title" content="Sara Strasner" />
+        <meta property="og:type" content="website" />
+        <meta
+          name="image"
+          property="og:image"
+          content="https://live.staticflickr.com/65535/50999770083_d9bd32647e_k.jpg"
+        />
+        <meta name="description" property="og:description" content="Sara Strasner | Portfolio" />
+        <meta name="author" content="Sara Strasner" />
         {headComponents}
       </head>
       <body {...bodyAttributes}>
